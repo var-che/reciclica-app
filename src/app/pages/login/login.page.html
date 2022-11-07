@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="flex-center">
+    <ion-card>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-card-header>
+        <ion-card-title>Login</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">email</ion-label>
+          <ion-input type="email" placeholder="dobar@mejl.com"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">sifra</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        <ion-button size="full" fill="clear" color="dark">Zaboravio sifru</ion-button>
+        <ion-button size="full" (click)="login()">Loguj se</ion-button>
+        <ion-button fill="clear" size="full" (click)="register()">Registruj se</ion-button>
+
+        <ion-button   size="full">Nastavi preko Googla</ion-button>
+        <ion-button   size="full">Nastavi preko Facebook</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-content>

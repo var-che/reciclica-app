@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <img src="https://www.nps.gov/safr/planyourvisit/images/areamapA.jpg?maxwidth=1200&maxheight=1200&autorotate=false" />
+  <ion-card>
+    <ion-card-content>
+      <p>Address: 123, fake street</p>
+      <p>Complement: Biggest</p>
+      <p>City: Nis</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button (click)="goToHome()" size="full" color="success">Create pickup call</ion-button>
+</ion-content>
